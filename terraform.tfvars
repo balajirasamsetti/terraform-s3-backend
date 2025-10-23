@@ -1,0 +1,10 @@
+aws_region        = "us-east-1"
+state_bucket_name = "balaji-terraform-state-bucket"
+lock_table_name   = "terraform-lock-table"
+state_key         = "ec2/terraform.tfstate"
+
+ami_id            = "ami-0c02fb55956c7d316"
+instance_type     = "t2.micro"
+key_pair_name     = "balaji-keypair"
+instance_name     = "TerraformEC2Demo"
+environment       = "dev"
