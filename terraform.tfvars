@@ -4,7 +4,6 @@ lock_table_name   = "terraform-lock-table"
 state_key         = "ec2/terraform.tfstate"
 
 ami_id            = "ami-0c02fb55956c7d316"
-subnet_id         = "subnet-0068366478c23a1e6"
 instance_type     = "t2.micro"
 key_pair_name     = "balaji-keypair"
 instance_name     = "TerraformEC2Demo"
